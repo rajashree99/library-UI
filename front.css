@@ -1,0 +1,131 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.raji{
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("OIP.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("OIP.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+ .nav-bar{
+     display:flex;
+     padding: 40px 120px;
+         }  
+ .nav-logo img{
+     width:135px
+               }
+ 
+.menu{
+    flex: 1;
+    
+     }
+.menu ul{
+    margin-left: 50px;
+    display: inline;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+
+}
+.menu ul a{
+    color:#fff;
+    text-decoration:none;
+    font-size: 13px;
+}
+.menu ul li::after{
+    content:'';
+    width:0;
+    height: 2px;
+    margin: auto;
+    display: block;
+    background: yellow;
+    transition: .5s;
+}
+.menu ul li:hover::after{
+    width:100%
+
+}
+.btn{
+    padding: 20px;
+    background: yellow;
+    cursor:pointer;
+    font-weight: bold;
+    border:0;
+}
+.menu .btn{
+    float:right;
+}
+
+.welcome{
+margin: 80px 130px;
+color:#fff;
+}
+.welcome h1{
+font-size: 64px;
+margin-bottom: 30px;
+}
+.welcome h1 span{
+    color: yellow;
+}
+.vertical{
+    height: 100%;
+    background: #000;
+    top:0;
+    left:0;
+    position:absolute;
+}
+.search-icon{
+    height: 60%;
+    width:80px;
+}
+.search-icon .fa {
+    margin: 45px 23px;
+    display: block;
+    color:#fff;
+    font-size: 30px;
+    cursor:pointer;
+}
+.social-icon{
+    height:35%;
+    width:80px;
+    background:yellow;
+    text-align:center;
+    padding-top:27% ;
+    bottom: 0;
+    position: absolute;
+}
+.social-icon .fa{
+    margin: 15px 23px;
+    display:block;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius:50%;
+    cursor:pointer;
+}
+.notification{
+    display: flex;
+    width: 400px;
+    right: 0;
+    bottom: 0;
+    position:absolute;
+    background: yellow;
+    align-items: center;
+}
+.content{
+    flex-basis: 50%;
+    padding: 10px;
+}
+.content a{
+    text-decoration: none;
+    color:#000;
+    font-size: 13px;
+    margin: 0 10px;
+}
